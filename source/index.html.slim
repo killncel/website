@@ -1,0 +1,39 @@
+section#hero
+  = image_tag "logo.svg", alt: "killncel", class: 'logo'
+section#about
+  p
+   | 「キリンセル」は、うなすけと蜘蛛糸まなによる同人サークルです。
+section#members
+  h2
+    | Members
+  .members-container
+    .member
+      = image_tag "unasuke.jpg", alt: "unasuke"
+      .name
+        | うなすけ
+      a.social-account(href="https://twitter.com/yu_suke1994" target="_blank" rel="noopener noreferrer")
+        i.fab.fa-twitter.fa-lg
+        | &nbsp;@yu_suke1994
+    .member
+      = image_tag "https://placehold.jp/500x500.png", alt: "kumoito mana"
+      .name
+        | 蜘蛛糸まな
+      a.social-account(href="https://twitter.com/HolyGrail" target="_blank" rel="noopener noreferrer")
+        i.fab.fa-twitter.fa-lg
+        | &nbsp;@HolyGrail
+section#contents
+  h2
+    | Contents
+  .contents-container
+    .content
+      = image_tag "https://placehold.jp/420x595.png", alt: 'FANBOXまとめ本'
+      .name FANBOXまとめ本
+      a(href="#" target="_blank" rel="noopener noreferrer")
+        i.fas.fa-external-link-alt
+        | &nbsp;coming soon
+    .content
+      = image_tag "https://placehold.jp/420x595.png", alt: 'うなすけFANBOOK(仮)'
+      .name うなすけFANBOOK(仮)
+      a(href="#" target="_blank" rel="noopener noreferrer")
+        i.fas.fa-external-link-alt
+        | &nbsp;coming soon
