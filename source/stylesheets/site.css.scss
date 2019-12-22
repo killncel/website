@@ -78,13 +78,13 @@ section#members, section#contents {
   justify-content: space-around;
 
   .content {
-    width: 200px;
+    min-width: 200px;
     display: flex;
     flex-flow: column;
 
     img {
       display: block;
-      max-height: 250px;
+      max-height: 350px;
       object-fit: contain;
     }
 
