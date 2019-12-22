@@ -76,6 +76,7 @@ section#members, section#contents {
   max-width: 800px;
   width: 80%;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   .content {
     min-width: 200px;
