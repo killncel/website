@@ -45,4 +45,4 @@ page '/*.txt', layout: false
 #   activate :minify_javascript
 # end
 
-activate :asset_hash
+activate :asset_hash, ignore: 'images/ogp.png'

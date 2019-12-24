@@ -1,10 +1,17 @@
 doctype html
-html
+html(prefix="og: http://ogp.me/ns#")
   head
     meta(charset="utf-8")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
     meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
     meta(name="description" content="「キリンセル」は、うなすけと蜘蛛糸まなによる同人サークルです。")
+    meta(property="og:title" content="キリンセル")
+    meta(property="og:type" content="website")
+    meta(property="og:url" content="https://killncel.club/")
+    meta(property="og:image" content="https://killncel.club/images/ogp.png")
+    meta(property="og:description" content="「キリンセル」は、うなすけと蜘蛛糸まなによる同人サークルです。")
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:creator" content="@yu_suke1994")
     title
       = current_page.data.title || "キリンセル"
     = stylesheet_link_tag "site"
