@@ -118,5 +118,11 @@ section#members, section#contents, section#contact {
       text-align: center;
       color: #888;
     }
+
+    a.booth {
+      &:hover {
+        color: #fc4d50;
+      }
+    }
   }
 }
