@@ -145,5 +145,11 @@ section#members, section#contents, section#contact, section#links {
         color: #fc4d50;
       }
     }
+
+    a.techbookfest {
+      &:hover {
+        color: #4caf50;
+      }
+    }
   }
 }
